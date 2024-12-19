@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 export default function Width() {
-  const [width, setWidth] = useState(window.innerWidth);
+  const [width, setWidth] = useState(0);
   const [ativo, setAtivo] = useState(false);
 
   useEffect(() => {

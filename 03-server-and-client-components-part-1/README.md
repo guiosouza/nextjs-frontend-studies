@@ -116,7 +116,7 @@ Um Client Component pode ser importado e utilizado dentro de um Server Component
 import { useEffect, useState } from "react";
 
 export default function InteractiveWidth() {
-  const [width, setWidth] = useState(window.innerWidth);
+  const [width, setWidth] = useState(0);
   const [ativo, setAtivo] = useState(false);
 
   useEffect(() => {
