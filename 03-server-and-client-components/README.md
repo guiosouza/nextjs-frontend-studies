@@ -3,18 +3,21 @@
 Este documento serve como referência sobre o aprendizado relacionado a **Server Components** e **Client Components** no Next.js. Inclui explicações, exemplos práticos e boas práticas.
 
 ---
+<br/>
+<br/>
+<br/>
 
-## Server Components
+## 📡 Server Components
 
 Por padrão, no Next.js, todos os componentes são renderizados no lado do servidor (**Server Components**). Isso significa que eles podem acessar APIs do Node.js diretamente. 
 
-### Características dos Server Components:
+### 🛠️ Características dos Server Components:
 - Renderizados e executados no servidor.
 - Permitem o uso de APIs do Node.js, como `fs` (filesystem).
 - Podem ser assíncronos, permitindo o uso de `async` e `await`.
 - Gera o HTML diretamente no servidor, reduzindo a necessidade de processamento no cliente.
 
-### Exemplo de Server Component
+### 💻 Exemplo de Server Component
 Este componente registra o último acesso ao sistema em um arquivo e exibe o conteúdo do log na página:
 
 ```jsx
@@ -68,21 +71,24 @@ export default async function HomePage() {
 }
 ```
 
-### Observação:
+### 📝 Observação:
 Ao inspecionar o HTML gerado no navegador, você verá que os dados já estão no documento HTML, sem a necessidade de processamento adicional no cliente.
 
 ---
+<br/>
+<br/>
+<br/>
 
-## Client Components
+## 🌐 Client Components
 
 Os Client Components são renderizados no lado do cliente e possuem acesso às APIs do navegador, como `window`. Também podem usar recursos como **hooks do React** (`useState`, `useEffect`, etc.).
 
-### Características dos Client Components:
+### 🛠️ Características dos Client Components:
 - Devem incluir a diretiva `'use client'` no início do arquivo.
 - Podem ser pré-renderizados no servidor, mas a interatividade é adicionada no cliente.
 - Recomendados para partes da aplicação que necessitam de interatividade.
 
-### Exemplo de Client Component
+### 💻 Exemplo de Client Component
 Um componente simples que mostra a largura da janela do navegador e é atualizado em tempo real:
 
 ```jsx
@@ -102,7 +108,7 @@ export default function Width() {
 }
 ```
 
-### Integrando com Server Components
+### 🔄 Integrando com Server Components
 Um Client Component pode ser importado e utilizado dentro de um Server Component:
 
 ```jsx
@@ -134,15 +140,18 @@ export default function InteractiveWidth() {
 }
 ```
 
-### Boas Práticas:
+### ✅ Boas Práticas:
 - **Separe interatividade em Client Components:** 
   Use `'use client'` para componentes que dependem de hooks ou de APIs do navegador.
 - **Combine Server e Client Components:**
   Coloque a lógica do cliente em um componente separado e importe-o em um componente do servidor.
 
 ---
+<br/>
+<br/>
+<br/>
 
-## Resumo
+## 📋 Resumo
 
 | Tipo de Componente   | Renderizado em    | Acesso a APIs                  | Exemplos de Uso                       |
 |----------------------|-------------------|--------------------------------|---------------------------------------|
