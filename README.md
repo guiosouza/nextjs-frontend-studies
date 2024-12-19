@@ -8,6 +8,8 @@ Here you will find the base files for the environment:
 - [App Router](https://github.com/guiosouza/nextjs-frontend-studies/tree/main/01-app-router)
 - [Link Component Next](https://github.com/guiosouza/nextjs-frontend-studies/tree/main/02-link)
 
+<br />
+
 ## What You’ll Find Here
 
 ### 🔄 Projects
@@ -30,9 +32,6 @@ This repository is perfect for:
 
 ## Tools and Technologies
 - **Next.js**: Framework for React-based front-end development.
-- **CSS-in-JS**: Styled-components, Emotion, and other styling solutions.
-- **UI Libraries**: Material-UI, TailwindCSS, and more.
-- **State Management**: Context API, Redux, or other tools as needed.
 
 ## Getting Started
 1. Clone the repository:
