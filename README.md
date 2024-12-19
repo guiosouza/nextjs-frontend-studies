@@ -6,6 +6,7 @@ Welcome to the **NEXT.js Frontend Studies** repository! This is your go-to resou
 Here you will find the base files for the environment:
 - [Base Ambient For Development](https://github.com/guiosouza/nextjs-frontend-studies/tree/main/00-ambient-nextjs)
 - [App Router](https://github.com/guiosouza/nextjs-frontend-studies/tree/main/01-app-router)
+- [Link Component Next](https://github.com/guiosouza/nextjs-frontend-studies/tree/main/02-link)
 
 ## What You’ll Find Here
 
