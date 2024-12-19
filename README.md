@@ -2,6 +2,10 @@
 
 Welcome to the **NEXT.js Frontend Studies** repository! This is your go-to resource for exploring the front-end capabilities of Next.js through practical projects, experiments, and tutorials. Whether you're a beginner or an experienced developer, this repository aims to enhance your understanding of modern front-end development.
 
+## Index (Lessons)
+Here you will find the base files for the environment:
+- [Base Ambient For Development](https://github.com/guiosouza/nextjs-frontend-studies/tree/main/00-ambient-nextjs)
+
 ## What You’ll Find Here
 
 ### 🔄 Projects
