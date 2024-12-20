@@ -10,6 +10,7 @@ Here you will find the base files for the environment:
 - [03 - Server and Client Components Part 1](https://github.com/guiosouza/nextjs-frontend-studies/tree/main/03-server-and-client-components)
 - [04 - Server and Client Components Part 2](https://github.com/guiosouza/nextjs-frontend-studies/tree/main/04-server-and-client-components-part-2)
 - [05 - Server and Client Components Part 3](https://github.com/guiosouza/nextjs-frontend-studies/tree/main/05-server-and-client-components-part-3)
+- [06 - Fetch](https://github.com/guiosouza/nextjs-frontend-studies/tree/main/05-server-and-client-components-part-3)
 
 <br />
 
